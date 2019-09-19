@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56" started-at="2019-01-14T17:39:44Z" finished-at="2019-01-14T17:39:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56" started-at="2019-01-14T17:39:44Z" finished-at="2019-01-14T17:39:44Z">
+      <class name="freeCRMDemo.TestScenarios.LoginTest">
+        <test-method status="FAIL" signature="LoginToGmail(java.lang.reflect.Method)[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@59d2103b]" name="LoginToGmail" duration-ms="0" started-at="2019-01-14T23:09:44Z" description="SheetName=xyz" data-provider="InputData" finished-at="2019-01-14T23:09:44Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Some DataProvider public java.lang.Object[][] basicframework.base.BaseTest.ExcelInputData(org.testng.annotations.ITestAnnotation) throws java.lang.Exception parameters unresolved:  at 1 type interface org.testng.annotations.ITestAnnotation
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] basicframework.base.BaseTest.ExcelInputData(org.testng.annotations.ITestAnnotation) throws java.lang.Exception parameters unresolved:  at 1 type interface org.testng.annotations.ITestAnnotation
+
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:128)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToGmail -->
+        <test-method status="PASS" signature="endClasses()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@59d2103b]" name="endClasses" is-config="true" duration-ms="19" started-at="2019-01-14T23:09:44Z" finished-at="2019-01-14T23:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClasses -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@59d2103b]" name="endTest" is-config="true" duration-ms="0" started-at="2019-01-14T23:09:44Z" finished-at="2019-01-14T23:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@59d2103b]" name="tearDown" is-config="true" duration-ms="5" started-at="2019-01-14T23:09:44Z" finished-at="2019-01-14T23:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- freeCRMDemo.TestScenarios.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
